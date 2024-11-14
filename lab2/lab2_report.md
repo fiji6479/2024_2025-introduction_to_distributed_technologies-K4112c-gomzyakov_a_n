@@ -86,6 +86,7 @@ minikube kubectl -- port-forward service/lab2-service 3000:3000
 Переменные REACT_APP_USERNAME и REACT_APP_COMPANY_NAME не изменяются. Это связанно с тем, что это переменные среды. Они были заданы при создании объекта deployment и соотвественно указаны в deployment.yml.
  
 Логи двух контейнеров: 
+
 lab2-deployment-7f9dd6767c-88pjx:
 
 ![изображение](https://github.com/user-attachments/assets/fd3b5736-0442-44d3-a679-41c2446c0643)
