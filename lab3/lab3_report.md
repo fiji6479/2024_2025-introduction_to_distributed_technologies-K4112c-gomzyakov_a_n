@@ -92,7 +92,7 @@ spec:
 
 Далее нужно сгенировать сертификат TLS. Для этого возпользуемся следующей командой: 
 
-![изображение](https://github.com/user-attachments/assets/cad6d29b-963a-4706-b11e-6bf984f41741)
+![изображение](https://github.com/user-attachments/assets/871d6d56-93e6-4cb2-8386-c12bf9ac6089)
 
 Теперь добавим созданный сертификат в качестве secret:
 
