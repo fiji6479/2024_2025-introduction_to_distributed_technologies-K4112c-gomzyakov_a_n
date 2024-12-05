@@ -1,0 +1,22 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: lab3-ingress
+  labels:
+    name: lab3-ingress
+spec:
+  tls:
+    - hosts: 
+      - gomzyakov.com
+      secretName: secret-tls
+  rules:
+  - host: gomzyakov.com
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: lab3-service
+            port: 
+              number: 3000

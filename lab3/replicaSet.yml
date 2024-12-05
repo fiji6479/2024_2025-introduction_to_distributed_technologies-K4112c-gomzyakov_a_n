@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: itdt-contained-frontend
+  labels:
+    app: lab3-sevice 
+spec:
+  selector:
+    matchLabels:
+      app: lab3-service
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: lab3-service
+    spec:
+      containers:
+        - name: itdt-contained-frontend
+          image: ifilyaninitmo/itdt-contained-frontend:master
+          env:
+            - name: REACT_APP_USERNAME
+              valueFrom:
+                configMapKeyRef:
+                  name: itdt-contained-frontend-configmap
+                  key: REACT_APP_USERNAME
+            - name: REACT_APP_COMPANY_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: itdt-contained-frontend-configmap
+                  key: REACT_APP_COMPANY_NAME
+          
