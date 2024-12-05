@@ -168,4 +168,7 @@ sudo nano /etc/hosts
 
 ![изображение](https://github.com/user-attachments/assets/7cc59d35-92da-4858-9e01-bd7aac58c080)
 
+## Схема организации контейеров и сервисов ##
 
+
+![изображение](https://github.com/user-attachments/assets/804e7d73-5c0c-4b72-b89a-c47dc4bc035a)
