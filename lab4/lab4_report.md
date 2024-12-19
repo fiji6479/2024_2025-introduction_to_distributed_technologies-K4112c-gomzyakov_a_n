@@ -10,7 +10,7 @@ Group: K4112c
 
 Author: Gomzyakov Alexander Nikolaevich
 
-Lab: Lab3
+Lab: Lab4
 
 Date of create: 18.12.2024
 
