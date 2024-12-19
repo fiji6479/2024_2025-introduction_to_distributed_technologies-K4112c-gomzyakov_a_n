@@ -35,7 +35,7 @@ minikube start --network-plugin=cni --cni=calico --nodes 2
 
 ![изображение](https://github.com/user-attachments/assets/d6958ae5-c526-41b1-9cfb-20323c66a9df)
 
-![изображение](https://github.com/user-attachments/assets/7972df75-3a40-4e83-8155-3cf207aa1308)
+![изображение](https://github.com/user-attachments/assets/956d678f-f84c-4d7d-999c-37e4406e0f85)
 
 Далее удалим стандартный ippool
 
