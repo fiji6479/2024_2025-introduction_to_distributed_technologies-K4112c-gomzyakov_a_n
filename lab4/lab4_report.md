@@ -102,3 +102,5 @@ spec:
 
 
 ## Схема организации контейеров и сервисов ##
+
+![изображение](https://github.com/user-attachments/assets/0da1d58d-28e1-4e6c-82f7-b4be4ad26854)
